@@ -25,7 +25,6 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          flutter pub upgrade --major-versions
           flutter pub get
           flutter clean
 
